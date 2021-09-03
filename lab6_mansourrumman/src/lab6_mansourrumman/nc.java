@@ -10,7 +10,7 @@ package lab6_mansourrumman;
  * @author manso
  */
 public class nc extends notas {
-   private String cat,des,pub;
+    private String cat,des,pub;
 
     public nc(String cat, String des, String pub, String tit, int fecha, String pri) {
         super(tit, fecha, pri);
@@ -45,7 +45,7 @@ public class nc extends notas {
 
     @Override
     public String toString() {
-        return super.toString()+ "nc{" + "cat=" + cat + ", des=" + des + ", pub=" + pub + '}';
+          return super.toString()+ "nc{" + "cat=" + cat + ", des=" + des + ", pub=" + pub + '}';
     }
-   
+    
 }
